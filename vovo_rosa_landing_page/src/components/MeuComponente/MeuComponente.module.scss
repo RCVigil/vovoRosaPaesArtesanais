@@ -1,0 +1,7 @@
+@use '../../assets/styles/mixins'as *;
+
+.container {
+  @include flex-center;
+  background-color: lightblue;
+  height: 100px;
+}
