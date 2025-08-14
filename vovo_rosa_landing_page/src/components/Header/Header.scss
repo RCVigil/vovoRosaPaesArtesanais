@@ -1,29 +1,43 @@
 #Header {
   align-items: center;
-  // border: 1px solid yellow ;
-  min-width: 90vw;
+  border: 1px solid yellow;
   display: flex;
   justify-content: space-around;
+  min-width: 100vw;
+  padding: 1rem 0.5rem;
+  font-size: 1.3rem;
+
+  position: fixed; // fixa no topo
+  top: 0; // cola no topo
+  left: 0; // alinha à esquerda
+  z-index: 999; // garante que fique acima de outros elementos
+  background: #fcf2e0; // fundo sólido para não ficar transparente
 }
 
+
 .headerLeft {
-  // border: 1px solid green;
+  align-items: center;
+  border: 1px solid green;
   display: flex;
-  height: 100%;
+  height: 6rem;
   justify-content: space-around;
   width: 43%;
 }
 
 .headerMeddle {
+  align-items: center;
   // border: 1px solid blue;
-  height: 100%;
+  display: flex;
+  height: 6rem;
+  justify-content: center;
   width: 9%;
 }
 
 .headerRight {
+  align-items: center;
   // border: 1px solid red;
   display: flex;
-  height: 100%;
+  height: 6rem;
   justify-content: space-around;
   width: 43%;
 }

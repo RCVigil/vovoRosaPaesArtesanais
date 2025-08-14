@@ -6,9 +6,15 @@ const Header = () => {
   return (
     <div id="Header">
       <div className="headerLeft">
-        <a href="#sweetBreads">Pães Doces</a>
-        <a href="#Cokies">Bolachas</a>
-        <a href="#naturalFermentation">Pães de Fermentação Natural</a>
+        <div className="headerLeft_sweetBreads">
+          <a href="#sweetBreads">Pães Doces</a>
+        </div>
+        <div className="headerLeft_cokies">
+          <a href="#cokies">Bolachas</a>
+        </div>
+        <div className="headerLeft_cokies">
+          <a href="#naturalFermentation">Pães de Fermentação Natural</a>
+        </div>
       </div>
       <div className="headerMeddle">
         <img
