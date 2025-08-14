@@ -21,8 +21,8 @@ const Header = () => {
           src={vovoRosaLogo}
           alt="Imagem do Logo da Vovó Rosa Pães Artesanais"
           id="imgTopHeader"
-          width="100"
-          height="100"
+          width="150"
+          height="150"
         />
       </div>
       <div className="headerRight">
