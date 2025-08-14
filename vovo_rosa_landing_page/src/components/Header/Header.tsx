@@ -7,7 +7,7 @@ const Header = () => {
     <div id="Header">
       <div className="headerLeft">
         <div className="headerLeft_sweetBreads">
-          <a href="#sweetBreads">Pães Doces</a>
+          <a href="#sweetBreads">pães Doces</a>
         </div>
         <div className="headerLeft_cokies">
           <a href="#cokies">Bolachas</a>

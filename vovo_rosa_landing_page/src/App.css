@@ -7,7 +7,6 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
   background-color: #fcf2e0;
 
   font-synthesis: none;
@@ -40,6 +39,7 @@ a {
   text-decoration: none;
   font-weight: 500;
   color: #9b521c;
+  text-transform: capitalize;
 }
 
 a:hover {
