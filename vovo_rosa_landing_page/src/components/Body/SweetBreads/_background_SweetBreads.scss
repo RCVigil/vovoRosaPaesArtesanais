@@ -1,0 +1,13 @@
+#__background_SweetBreads {
+  width: 100%;
+  height: auto; // ajusta automaticamente
+  display: flex; // garante alinhamento se precisar
+  justify-content: center;
+}
+
+.duetoChoco_image {
+  width: 100%;
+  height: auto; // mantém proporção
+  object-fit: cover; // cobre o espaço sem distorcer
+  display: block; // remove espaçamento extra do inline-block
+}

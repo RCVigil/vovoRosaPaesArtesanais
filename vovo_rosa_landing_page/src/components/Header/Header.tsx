@@ -3,6 +3,7 @@ import "./Header.scss";
 import vovoRosaLogo from "../../assets/images/VovóRosaLogoFTransparente_semTelefone.svg";
 
 const Header = () => {
+  const site = "http://localhost:5173"
   return (
     <div id="Header">
       <div className="headerLeft">
@@ -17,13 +18,15 @@ const Header = () => {
         </div>
       </div>
       <div className="headerMeddle">
-        <img
-          src={vovoRosaLogo}
-          alt="Imagem do Logo da Vovó Rosa Pães Artesanais"
-          id="imgTopHeader"
-          width="150"
-          height="150"
-        />
+        <a href={site}>
+          <img
+            src={vovoRosaLogo}
+            alt="Imagem do Logo da Vovó Rosa Pães Artesanais"
+            id="imgTopHeader"
+            width="150"
+            height="150"
+          />
+        </a>
       </div>
       <div className="headerRight">
         <a href="#Experiency">Experiências</a>

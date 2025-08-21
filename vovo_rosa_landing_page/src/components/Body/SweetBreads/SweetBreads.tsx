@@ -1,10 +1,11 @@
 import React from 'react'
 import "./_sweetBreads.scss"
+import Background_SweetBreads from './Background_SweetBreads'
 
 const SweetBreads = () => {
   return (
     <div id='SweetBreads_Body'>
-      <h1>Sweet breads</h1>
+      <Background_SweetBreads/>
     </div>
   )
 }

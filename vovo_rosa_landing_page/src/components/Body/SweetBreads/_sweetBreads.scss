@@ -1,14 +1,14 @@
-#SweetBreads_Body {
-  align-items: center;
-  border: 1px solid red;
-  // color: #222;
-  display: flex;
-  height: 40rem;
-  justify-content: center;
-  max-width: 99.2vw;
-  width: 100vw;
+#__background_SweetBreads {
+  width: 100%;
+  height: 100vh; // ocupa a altura total da tela
+  background-image: url("../../../assets/images/SweetBreads/paoChocoDLeite3.jpeg");
+  background-size: cover; // cobre toda a tela
+  background-position: center; // centraliza a imagem
+  background-repeat: no-repeat;
+  background-attachment: fixed; // efeito "parallax" (fica fixo ao rolar)
 
-  position: absolute;
-  left: 0;
-  top: 10.3rem;
+  // deixa transparente para sobrepor elementos se quiser
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
